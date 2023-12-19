@@ -27,7 +27,7 @@ public class App {
         
         
         System.out.printf(" il y a %d nombre pair \n", nbpair);
-        System.out.printf(" il y a %d de nombre pair \n ", 10-nbpair);
+        System.out.printf(" il y a %d de nombre impair \n ", 10-nbpair);
     
         int []tabpair = new int[nbpair];
         int []tabimpair = new int[10-nbpair];
