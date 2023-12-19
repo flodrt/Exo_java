@@ -1,4 +1,4 @@
-package Ex_12;
+package Ex_13;
 
 import java.util.Scanner;
 import java.util.Random; 
@@ -18,31 +18,21 @@ public class App {
         // est inconnu à l'avance. 
         // La boucle while continue tant que la condition spécifiée est vraie.
         
-        Scanner scanner = new Scanner (System.in);
+       System.out.println(" +\"\"\"\"\"+");
+       System.out.println("[| o o |]");
+       System.out.println("|   ^   |");
+       System.out.println("|  '-'  |");
+       System.out.println(" +-----+");
 
-        Random rand = new Random();
-        int nbsecret = rand.nextInt(100);
-        int nb = 101;
-        System.out.println("le nb secret "+ nbsecret);
-        while (nbsecret != nb ) {
-            System.out.println("Saisir un nb   :   ");
-            nb = scanner.nextInt();
-                if (nb<nbsecret){ 
-                    System.out.println("Plus garnd");
-                }
-                else if (nb>nbsecret) {
-                    System.out.println("Plus petit");
-                }
-
+        
 
 
 
             
         }
+    }
 
-
-     scanner.close();
+     
      
 
-    }
-}
+   

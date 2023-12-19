@@ -35,6 +35,7 @@ public class App {
         int indimpair = 0;
 
         for (int i = 0; i < tab.length; i++){
+
             if (tab[i] %2 == 0 ) { 
                      
                     tabpair[indpair]= tab[i];
