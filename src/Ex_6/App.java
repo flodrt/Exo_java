@@ -26,11 +26,17 @@ public class App {
         c = a-b;
         System.out.println(" a - b :  " + c );
 
-        c  = a/b;
+        if (b == 0 ) {
+            System.out.println(" division impossible car :: Erreur div par  " + b );
+            
+        } else {
+            c  = a/b;
         System.out.println(" a / b :  " + c );
+        }
+        ///sgdsdgsdgD
 
           c  = a %b;
-        System.out.println(" le reste de a / par b :  " + c );
+        System.out.println(" le reste de a / par bq :  " + c );
 
     }
 }
