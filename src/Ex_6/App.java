@@ -36,7 +36,7 @@ public class App {
         ///sgdsdgsdgD
 
           c  = a %b;
-        System.out.println(" le reste de a / par bq :  " + c );
+        System.out.println(" le reste de a / par b :  " + c );
 
     }
 }
